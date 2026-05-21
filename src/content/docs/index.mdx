@@ -1,0 +1,35 @@
+---
+title: ANIMO
+description: Stream anime from multiple sources. Download for offline. All in one place.
+template: splash
+hero:
+  tagline: Stream anime from multiple sources. Download for offline. Track your progress. All in one place.
+  image:
+    file: ../../assets/logo.png
+  actions:
+    - text: Download Now
+      link: /animo-app/download/
+      icon: right-arrow
+      variant: primary
+    - text: Explore Features
+      link: /animo-app/features/
+      icon: open-book
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+	<Card title="Multi-Source" icon="star">
+		Streams from multiple providers. Automatic fallback — if one source goes down, another picks up.
+	</Card>
+	<Card title="Offline Downloads" icon="download">
+		Pick your quality, download episodes, watch anywhere without internet.
+	</Card>
+	<Card title="Every Platform" icon="laptop">
+		Android, Windows, macOS, and Linux. One experience across all your devices.
+	</Card>
+	<Card title="Smart Tracking" icon="chart">
+		Continue watching saved automatically. Optional AniList and MAL sync.
+	</Card>
+</CardGrid>
